@@ -16,11 +16,11 @@ app.post('/webhook/payphone', async (req, res) => {
       'https://pay.payphonetodoesposible.com/api/button/V2/Confirm',
       {
         transactionId: transactionId, // El ID de la transacción que recibimos
-        clientTransactionId: "identificador-único", // Esto es como un nombre especial para la transacción
+        clientTransactionId: "dSDiyDGO90WLWwzf7NGjew", // Esto es como un nombre especial para la transacción
       },
       {
         headers: {
-          'Authorization': `Bearer TU-TOKEN-DE-AUTENTICACION` // Esto es como una llave para abrir la puerta
+          'Authorization': `Bearer Q8Fak2wDKiAQctM0Lyx5EmgsDIEVH2AJ8pYyPbc3Szi1OR2akVBPbwxK-iyF8JmcXmqnQncnvSk0iHOmfYnaLTZBdHyNBRGD9Ho3ABsIQX7mUbl7v2Ro8XTTmM3MT1OleSq9TpGrWMNsnyuD3LLP6hC5LOjRdRhQLlFw6XUe2XtF68NL8G2U1f24_AuSsk7LlvrppGwBrzdpxDlmX-HR3o7aE47oqaBhok5ikFSGdG3yKLWMjGTWUWxCTEh94nN6LGezY5UrJVPB4MRjcEFi1VKHfT8NTT6R3aqSFI9h2ZVFCtqoE7qxJUAPjrqIclIKMcxCmg` // Esto es como una llave para abrir la puerta
         }
       }
     );
